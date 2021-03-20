@@ -5,13 +5,18 @@
 	
 	#include<stdio.h>
 	//Write the function for calculating square of a given number
+  int square(int a)
+  {
+    int c;
+    c=a*a;
+    return c;
+  }
 	int main()
 	{
 	    int num;
 	    int n;
-	    printf("Input any number for square:");
 	    scanf("%d",&num);
 	    n=square(num);
-	    printf("The square of %d is:%d",num,n); 
+	    printf("The square of %d is:%d*/",num,n); 
 	    return 0;
 	}
